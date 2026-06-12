@@ -1,0 +1,9 @@
+[Based color: AA7539]
+page background color:  FFF3E6
+
+page default text color: 000000
+page bold text color: 552E00, AA7539
+
+default link text color: 2B4B6F
+link visited text color: 661141
+link hover text color: 804E15
