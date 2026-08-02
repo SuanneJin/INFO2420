@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	background-color: #FFF3E6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #552E00;
+}
+
+header,
+section,
+footer {
+	width: 900px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+header {
+	height: 200px;
+	background-color: #AA7539;
+	overflow: hidden;
+	padding: 12px 15px 0;
+}
+
+section {
+	background-image: url("images/2colback.jpg");
+	background-repeat: repeat-y;
+	overflow: hidden;
+}
+
+nav {
+	float: left;
+	width: 250px;
+	padding: 28px 0 20px;
+}
+
+article {
+	float: left;
+	width: 650px;
+	padding: 20px 25px 25px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+	background-color: #AA7539;
+	padding: 12px 20px 16px;
+	clear: both;
+	color: #FFF3E6;
+}
+
+header .logo {
+	float: left;
+	width: 133px;
+	height: 126px;
+	border: none;
+	margin: 10px 0 0 0;
+}
+
+header .banner {
+	float: right;
+	width: 660px;
+	height: 175px;
+	margin-top: 0;
+}
+
+nav a {
+	display: block;
+	width: 150px;
+	border: 4px outset #552E00;
+	background-color: #E7E2DA;
+	font-weight: bold;
+	font-size: 1.05em;
+	color: #552E00;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 12px;
+	margin: 0 auto 18px;
+	font-family: "Segoe UI", Verdana, sans-serif;
+	box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+
+nav a:hover {
+	color: #2B4B6F;
+	background-color: #D5DDD8;
+	border: 4px inset #2B4B6F;
+}
+
+article h1,
+article h2 {
+	color: #1E2F39;
+	text-align: center;
+	margin: 0 0 12px;
+}
+
+article h1 {
+	font-size: 2.1em;
+}
+
+article h2 {
+	font-size: 1.4em;
+}
+
+article p {
+	line-height: 1.5;
+}
+
+#thumbs,
+#image {
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	color: #000;
+}
+
+#thumbs {
+	margin-top: 10px;
+}
+
+#thumbs img {
+	border: solid 6px #AA7539;
+	margin: 5px;
+	width: 120px;
+	height: 80px;
+	vertical-align: top;
+}
+
+#image {
+	margin-top: 12px;
+}
+
+#image img {
+	max-width: 100%;
+	height: auto;
+	border: solid 6px #AA7539;
+}
+
+#bottomText {
+	margin-top: 12px;
+	font-size: 22px;
+}
+
+.mini-tribute {
+	margin-top: 24px;
+	padding-top: 15px;
+	border-top: 2px solid #AA7539;
+	overflow: hidden;
+}
+
+.mini-tribute img {
+	float: left;
+	width: 180px;
+	height: auto;
+	border: solid 6px #AA7539;
+	margin: 4px 18px 10px 0;
+}
+
+footer p {
+	margin: 4px 0;
+	color: #FFF3E6;
+}
+
+footer a {
+	color: #FFF3E6;
+	font-weight: bold;
+}
+
+footer a:hover {
+	color: #2B4B6F;
+}
